@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 480px;
+    min-height: 100vh;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+nav .search {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0px;
+    padding: 4px 0;
+}
+
+nav .search img {
+    width: 10px;
+    margin-right: 6px;
+}
+
+nav .back img {
+    width: 20px;
+    padding: 4px 0;
+    opacity: 80%;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 1.2rem 0 0.6rem;
+}
+
+.dashboard {
+    border-radius: 12px;
+    background-color: #252525;
+}
+
+.dashboard .main-dashboard {
+    position: relative;
+    border-radius: 12px;
+    border: 2px solid #464646;
+    color: #C8C8C8;
+    background-image: linear-gradient(to bottom left, #474747,#1A1A1A);
+    padding: 0.6rem;
+}
+
+.dashboard .main-dashboard > a,
+.dashboard .main-dashboard > div {
+    position: relative;
+}
+
+.dashboard .main-dashboard > img {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    width: auto;
+    height: 70%;
+    opacity: 5%;
+}
+
+.dashboard .main-dashboard a {
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px;
+    transition: 200ms;
+}
+.dashboard .main-dashboard a:hover {
+    background-color: #ffffff0d;
+    transition: 200ms;
+}
+
+.dashboard .main-dashboard a p {
+    margin: 0;
+}
+
+.dashboard .main-dashboard a span,
+.dashboard .main-dashboard a .balance {
+    color: white;
+}
+
+.dashboard .main-dashboard .live-reward,
+.dashboard .main-dashboard .coin-reward,
+.dashboard .main-dashboard .other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard .main-dashboard .live-reward p {
+    margin-bottom: 8px;
+}
+.dashboard .main-dashboard .live-reward .balance {
+    letter-spacing: 0.03em;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.dashboard .main-dashboard .live-reward .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dashboard .main-dashboard .live-reward img {
+    width: 8px;
+}
+
+.dashboard .main-dashboard .other-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0.3rem;
+}
+
+.dashboard .main-dashboard .other-contents > a {
+    flex: 1 0 0;
+}
+
+.dashboard .main-dashboard .coin-reward .coins p {
+    margin-bottom: 2px;
+}
+
+.dashboard .main-dashboard .coin-reward .coins .content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.dashboard .main-dashboard .coin-reward .coin-img {
+    width: 14px;
+}
+
+.dashboard .main-dashboard .coin-reward img,
+.dashboard .main-dashboard .other img {
+    width: 8px;
+}
+
+.dashboard .challenge {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #6F6F6F;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 12px;
+}
+
+.dashboard .challenge .challenges-left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.dashboard .challenge img {
+    width: 15px;
+}
+
+.dashboard .challenge > img {
+    width: 8px;
+}
+
+.dashboard .challenge .challenge-detail {
+    flex-grow: 1;
+}
+
+.dashboard .challenge .challenge-detail p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.dashboard .challenge .progression-container {
+    border-radius: 100rem;
+    background-color: #3F3F3F;
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dashboard .challenge .progression {
+    border-radius: 100rem;
+    background-color: #C8C8C8;
+    height: 100%;
+    width: 0%;
+}
+
+.h-line {
+    border-bottom: 2px solid #3E3E3E;
+    width: 98%;
+    margin: 0.6rem auto;
+}
+
+.v-line {
+    border-left: 2px solid #3E3E3E;
+    height: 50px;
+    margin-top: 7px;
+}
+
+.action-history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #252525;
+    padding: 1rem;
+}
+
+.action-history img {
+    width: 15px;
+}
+
+.action-history .item .type {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.action-history .item .price {
+    color: #A8A8A8;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.action-history a {
+    border-radius: 6px;
+    background-color: #FD3B5C;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.services {
+    display: flex;
+    align-items: stretch;
+    gap: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.services > a {
+    border-radius: 12px;
+    flex: 1 0 0;
+    background-color: #1F1F1F;
+    padding: 1rem;
+}
+
+.services img {
+    display: block;
+    width: auto;
+    height: 32px;
+    margin-bottom: 8px;
+}

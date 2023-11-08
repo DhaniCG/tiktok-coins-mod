@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 5 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-4.57956,-253.537)">
+        <g id="Challenge-Icon" serif:id="Challenge Icon">
+            <g>
+                <g transform="matrix(1,-0,-0,1,4.57956,253.537)">
+                    <use xlink:href="#_Image1" x="0" y="0.103" width="4.022px" height="3.886px" transform="matrix(0.804494,0,0,0.971556,0,0)"/>
+                </g>
+            </g>
+            <g transform="matrix(0.963041,0,0,0.963041,0.24359,9.44534)">
+                <path d="M6.591,256.811L6.591,254" style="fill:none;stroke:white;stroke-width:0.31px;"/>
+            </g>
+            <g transform="matrix(1.03673,0,0,1.12461,-3.97135,-34.8252)">
+                <path d="M9.734,256.982L8.273,259.646C8.23,259.724 8.243,259.818 8.305,259.884C8.367,259.949 8.467,259.974 8.556,259.945L10.183,259.427C10.186,259.426 10.19,259.426 10.193,259.427L11.82,259.945C11.909,259.974 12.009,259.949 12.071,259.884C12.133,259.818 12.146,259.724 12.103,259.646L10.642,256.982C10.555,256.824 10.38,256.725 10.188,256.725C9.996,256.725 9.821,256.824 9.734,256.982L9.734,256.982ZM11.856,259.711L10.275,259.208C10.219,259.19 10.157,259.19 10.101,259.208L8.52,259.711L9.959,257.087C10.003,257.007 10.091,256.957 10.188,256.957C10.285,256.957 10.373,257.007 10.417,257.087L11.856,259.711Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="5px" height="4px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAX0lEQVQImQFUAKv/AAAAAAAWFhYHHR0ddBYWFgcAAAAABAAAAAAoKCh0/f39RQMDAwbq6uqGAy0tLSImJiap+Pj45RsbG1r///+mAxkZGW38/PzN5eXlpQAAAOj5+fkqbhEejPdY9tgAAAAASUVORK5CYII="/>
+    </defs>
+</svg>
